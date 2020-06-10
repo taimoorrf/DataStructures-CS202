@@ -70,8 +70,8 @@ void MergeHelper(ListItem<long>* &temp)
 
 	while (i < size/2)
 	{
-        temp2 = temp2->next;
-        i++;
+        	temp2 = temp2->next;
+        	i++;
 	}
 
 	//Breaking list in 2
