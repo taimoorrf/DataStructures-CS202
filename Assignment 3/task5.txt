@@ -1,0 +1,7 @@
+﻿1- Make a new cached class which is on the parameters of linear probing.
+2- A frequency counter to the blocks to keep in mind the number of times a value has been accessed. 
+3- Since the cache is of a set size, we will use linear probing. 
+4- We will, once the cache is full, which key is searched up least frequently, and replace it with the new value we are asked to insert.
+5- In cached search, we will first look in our cache and if we can’t find it there, we will look in the dictionary to find the word.
+
+Cached search will take lesser time as compared to non-cached search, because it is likely that we find our word in the cache since it has the most searched words, and we will have to search fewer number of entries.
