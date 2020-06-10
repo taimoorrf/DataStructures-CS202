@@ -77,8 +77,8 @@ void MergeHelper(ListItem<long>* &temp)
 	//Breaking list in 2
 	temp1 = temp2->prev;
 	temp1->next = NULL;
-    temp1 = temp;
-    temp2->prev = NULL;	
+    	temp1 = temp;
+    	temp2->prev = NULL;	
 	
 	//Further partitioning list
 	MergeHelper(temp1);
